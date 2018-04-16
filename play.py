@@ -2,6 +2,7 @@ import pylab
 import matplotlib.pyplot as plt
 import imageio
 import time
+
 filename = 'commercial.mp4'
 vid = imageio.get_reader(filename,  'ffmpeg')
 nums = range(1,5)
